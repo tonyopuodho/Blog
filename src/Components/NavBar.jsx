@@ -5,7 +5,7 @@ import { Link, NavLink } from 'react-router-dom'
 import "../index.css"
 function NavBar() {
     const navItems = [
-        {path:"/Home",link:"Home"},
+        {path:"/",link:"Home"},
         {path:"/About",link:"About"},
         {path:"/Service",link:"Service"},
         {path:"/Blog",link:"Blog"},

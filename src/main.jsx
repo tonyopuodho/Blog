@@ -11,11 +11,10 @@ import Contact from './pages/Contact'
 
 const router = createBrowserRouter([
   {
-    path:"/",
     element:<App/>,
     children:[
       {
-        path:"/Home",
+        path:"/",
         element:<Home/>
       },{
         path:"/Blog",
