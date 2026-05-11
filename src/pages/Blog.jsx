@@ -1,5 +1,6 @@
 import React from 'react'
 import { data } from '../Components/data'
+import Footer from '../Components/Footer'
 
 function Blog() {
   return (
@@ -20,7 +21,8 @@ function Blog() {
             </div>
           ))
         }
-      </div>          
+      </div>     
+      <Footer/>     
     </div>
     
   )

@@ -1,10 +1,11 @@
 import React from 'react'
 import Banner from '../Components/Banner'
 import { data } from '../Components/data'
+import Footer from '../Components/Footer'
 
 function Home() {
   return (
-    <div className='font-serif'>
+    <div className='font-serif bg-gray-100'>
         <Banner/>
           <div className='max-w-7xl md:w-[80%] mx-auto px-2 py-16 grid grid-cols-2 md:grid-cols-4 gap-4'>
                 {
@@ -20,6 +21,7 @@ function Home() {
                   ))
                 }
           </div> 
+          <Footer/>
     </div>
   )
 }
