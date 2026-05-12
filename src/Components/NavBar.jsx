@@ -15,7 +15,7 @@ function NavBar() {
   return (
     <header className='fixed w-full bg-black'>
         <nav className='p-4 max-w-7xl md:w-[80%] mx-auto px-2 flex justify-between items-center font-serif'>
-            <h1 className='text-white font-serif text-3xl'>Design<span className='text-orange-800'>DK</span></h1>
+            <h1 className='text-white font-serif text-3xl'>Blog<span className='text-orange-800'>DK</span></h1>
             <ul className='text-white md:flex gap-4 hidden'>
                 {
                     navItems.map(({path,link}) => (

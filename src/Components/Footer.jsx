@@ -37,7 +37,7 @@ function Footer() {
            </div>
            <hr className='text-orange-900 mt-8'/>
           <div className='flex justify-center items-center mt-4 text-amber-900'>
-               Copyright <FaCopyright className='ml-2 mr-2'/>  {new Date().getFullYear()} DesignDk All Rights reserved
+               Copyright <FaCopyright className='ml-2 mr-2'/>  {new Date().getFullYear()} BlogDk All Rights reserved
         </div>
         </div>
     </div>
