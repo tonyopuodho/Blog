@@ -41,7 +41,7 @@ Our team of dedicated writers and creators works hard to provide fresh, accurate
        <div className='mt-4'>
         <h1 className='text-4xl font-extrabold text-gray-800'>Our top Authors</h1>
         <hr  className='text-orange-900 mt-4'/>
-        <div className='grid grid-cols-1 md:grid-cols-3 mt-4 gap-4'>
+        <div className='grid grid-cols-1 md:grid-cols-3 mt-8 gap-4'>
           {
             authors.map((item) => (
               <div className='p-2 bg-white shadow-md rounded-md flex justify-center items-center flex-col'>
@@ -50,7 +50,7 @@ Our team of dedicated writers and creators works hard to provide fresh, accurate
                 </div>
                 <h1 className='text-xl text-gray-800 font-extrabold'>{item.name}</h1>
                 <p>{item.direct}</p>
-                <p>{item.doc}</p>
+                <p className='text-gray-500'>{item.doc}</p>
               </div>
             ))
           }
